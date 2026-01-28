@@ -1,4 +1,3 @@
-numpy
 streamlit
 pymupdf
 python-pptx
