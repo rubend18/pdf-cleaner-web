@@ -9,11 +9,11 @@ Esta aplicación fue creada para solucionar un problema específico: limpiar las
 - **Limpieza Automática:** Aplica un recuadro blanco en la posición exacta del logo de NotebookLM.
 - **Conversión Directa:** Transforma cada página del PDF en una diapositiva de PowerPoint de alta calidad.
 - **Interfaz Simple:** Sin configuraciones complejas. Subir, procesar y descargar.
-- [cite_start]**Optimizado para Móvil:** Funciona perfectamente desde el navegador de tu celular usando Streamlit Cloud[cite: 10, 11].
+- **Optimizado para Móvil:** Funciona perfectamente desde el navegador de tu celular usando Streamlit Cloud.
 
 ## 🛠️ Requisitos del Sistema
 
-[cite_start]El proyecto utiliza las siguientes librerías de Python, definidas en `requirements.txt`[cite: 4, 5]:
+El proyecto utiliza las siguientes librerías de Python, definidas en `requirements.txt`:
 
 - `streamlit`
 - `pymupdf`
