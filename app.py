@@ -6,13 +6,13 @@ import io
 import os
 
 # Configuración de la página
-st.set_page_config(page_title="PDF a PPTX (Limpiador)", layout="centered")
+st.set_page_config(page_title="PDF a PPTX", layout="centered")
 
-st.title("📄 PDF a PPTX Cleaner")
-st.write("Sube tu PDF para tapar el logo y convertirlo a PowerPoint.")
+st.title("📄 PDF a PPTX")
+st.write("Sube tu PDF para tapar el logo de NotebookLM y convertirlo a PowerPoint.")
 
 # Widget para subir archivo
-uploaded_file = st.file_uploader("Arrastra tu PDF aquí", type=["pdf"])
+uploaded_file = st.file_uploader("Sube tu PDF aquí", type=["pdf"])
 
 def procesar_pdf(file_stream):
     # Abrir PDF desde la memoria
