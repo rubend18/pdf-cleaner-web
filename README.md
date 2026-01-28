@@ -23,31 +23,31 @@ El proyecto utiliza las siguientes librerías de Python, definidas en `requireme
 
 ## 📖 Guía de Despliegue Paso a Paso
 
-Si deseas montar tu propia versión de esta web para usarla desde el celular, sigue estos pasos. [cite_start]La solución ideal es usar **Streamlit Cloud** porque es gratuito, ejecuta Python en la nube y se conecta directamente a GitHub[cite: 2, 3].
+Si deseas montar tu propia versión de esta web para usarla desde el celular, sigue estos pasos. La solución ideal es usar **Streamlit Cloud** porque es gratuito, ejecuta Python en la nube y se conecta directamente a GitHub.
 
 ### Paso 1: Preparación de Archivos
-[cite_start]Asegúrate de tener listos los dos archivos principales del proyecto[cite: 4]:
-1.  [cite_start]**`requirements.txt`**: Debe contener las librerías necesarias (`streamlit`, `pymupdf`, `python-pptx`)[cite: 4, 5].
+Asegúrate de tener listos los dos archivos principales del proyecto:
+1.  **`requirements.txt`**: Debe contener las librerías necesarias (`streamlit`, `pymupdf`, `python-pptx`).
 2.  **`app.py`**: El código principal de la aplicación.
 
 ### Paso 2: Subir a GitHub
-1.  [cite_start]Crea una cuenta en GitHub.com si aún no tienes una[cite: 6].
-2.  [cite_start]Crea un **Nuevo Repositorio** (puedes llamarlo, por ejemplo: `pdf-cleaner-web`)[cite: 6].
-3.  [cite_start]Sube los archivos `app.py` y `requirements.txt` a ese repositorio[cite: 6].
+1.  Crea una cuenta en GitHub.com si aún no tienes una.
+2.  Crea un **Nuevo Repositorio** (puedes llamarlo, por ejemplo: `pdf-cleaner-web`).
+3.  Sube los archivos `app.py` y `requirements.txt` a ese repositorio.
 
 ### Paso 3: Desplegar la Web (Gratis)
-1.  [cite_start]Ingresa a [share.streamlit.io](https://share.streamlit.io)[cite: 7].
-2.  [cite_start]Inicia sesión con tu cuenta de GitHub[cite: 7].
-3.  [cite_start]Haz clic en **"New App"** (o "Deploy an app")[cite: 8].
-4.  [cite_start]Selecciona el repositorio que creaste en el paso anterior (`pdf-cleaner-web`)[cite: 8].
-5.  [cite_start]En el campo **"Main file path"**, asegúrate de que diga `app.py`[cite: 9].
-6.  [cite_start]Haz clic en **Deploy**[cite: 9].
+1.  Ingresa a [share.streamlit.io](https://share.streamlit.io).
+2.  Inicia sesión con tu cuenta de GitHub.
+3.  Haz clic en **"New App"** (o "Deploy an app").
+4.  Selecciona el repositorio que creaste en el paso anterior (`pdf-cleaner-web`).
+5.  En el campo **"Main file path"**, asegúrate de que diga `app.py`.
+6.  Haz clic en **Deploy**.
 
 ### Resultado
-[cite_start]En unos minutos, Streamlit te generará una URL única (del estilo `pdf-cleaner-web.streamlit.app`)[cite: 10].
-* [cite_start]Podrás entrar a esa URL directamente desde tu celular[cite: 10].
-* [cite_start]Verás un botón grande para subir archivos desde tu galería o almacenamiento móvil[cite: 11].
-* [cite_start]Al presionar "Procesar", la nube hará el trabajo y te permitirá descargar el PPTX limpio[cite: 12].
+En unos minutos, Streamlit te generará una URL única (del estilo `pdf-cleaner-web.streamlit.app`).
+* Podrás entrar a esa URL directamente desde tu celular.
+* Verás un botón grande para subir archivos desde tu galería o almacenamiento móvil.
+* Al presionar "Procesar", la nube hará el trabajo y te permitirá descargar el PPTX limpio.
 
 ---
 
