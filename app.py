@@ -78,7 +78,7 @@ if uploaded_file is not None:
                 st.download_button(
                     label="📥 Descargar PPTX",
                     data=resultado_pptx,
-                    file_name=f"{os.path.splitext(uploaded_file.name)[0]}_limpio.pptx",
+                    file_name=f"{os.path.splitext(uploaded_file.name)[0]}_sin_logo.pptx",
                     mime="application/vnd.openxmlformats-officedocument.presentationml.presentation"
                 )
             except Exception as e:
